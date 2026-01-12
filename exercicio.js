@@ -1,5 +1,5 @@
-const newImagePath = './IMAGES/campo.atividade.jpg';
-const originalImagePath = './IMAGES/mar.atividade.jpg';
+const newImagePath = './campo.atividade.jpg';
+const originalImagePath = './mar.atividade.jpg';
 const imageElement = document.getElementById('my-image');
 
 function changeImage() {
@@ -26,4 +26,5 @@ function sumNumbers() {
     const num2 = parseFloat(document.getElementById('num2').value);
     const result = num1 + num2;
     document.getElementById('result').innerText = `Resultado: ${result}`;
+
 }
